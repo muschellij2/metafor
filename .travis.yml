@@ -1,6 +1,10 @@
 language: r
 cache: packages
-r: release
+r: 
+  - release
+  - 3.3
+  - 3.4 
+
 dist: xenial
 warnings_are_errors: true
 r_check_args: --no-tests --as-cran --no-manual
